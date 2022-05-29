@@ -1,0 +1,65 @@
+body{
+  background-color: #FCFBF4;
+}
+
+.Hero.image{
+  float: right;
+}
+nav{
+
+  height: 70px;
+  padding: 0px 70px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+.logo span{
+  color: grey;
+}
+.menu a{
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+.Hero.heading{
+  position: absolute;
+  top:20%;
+  left:5%;
+}
+.Hero.heading span{
+  color: orange;
+}
+.Hero.heading h1{
+  font-size: 5em;
+}
+
+.Hero.btn{
+  position: absolute;
+  top:60%;
+  left:5%;
+}
+.Hero.btn button{
+  margin: 15px;
+  padding: 20px;
+  background-color: #FCFBF4;
+  border-radius: 20px;
+}
+footer{
+  position: absolute;
+  bottom: 20px;
+  margin-left:90px;
+}
+
+footer button{
+  margin: 10px;
+  padding: 5px;
+  background-color: #FCFBF4;
+  border-radius: 200px;
+}
